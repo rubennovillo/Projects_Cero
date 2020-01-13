@@ -1,0 +1,48 @@
+body{
+	background-image: url("https://2.bp.blogspot.com/-z6Pk6K6Nvp0/UfmSx9lv3OI/AAAAAAAAIiA/P09Aip-3ZFM/s1600/Fondo+HD+para+bajar+-+WiriWiri_info+-+(117).png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.numero{
+	width:70px;
+	height:60px;
+	background-color: rgb(187, 187, 187);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 600;
+	
+}
+
+.signo{
+	font-weight: 500;
+	background-color: khaki;
+	font-size: 1.2rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.igual{
+	width:145px;
+	height:60px;
+	background-color: khaki;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.2rem;
+	
+}
+
+table{
+	margin:auto;
+	margin-top: 3rem;
+	
+}
+
+.color_display{
+	height:30px;
+	width: 280px;
+	background-color:rgb(0, 0, 0);
+	border:medium #FFF;
+	font: "Space Age";
+	color:rgb(0, 255, 255);
+	font-size:18px;
+	text-align:right;
+	padding:5px;
+}

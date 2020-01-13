@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/app.js"></script>
+    <title>JS</title>
+</head>
+<body>
+    <table width="15%" border="2">
+        <tr>
+          <td colspan="4" align="center">
+          <input name="display" type="text" class="color_display" id="display" size="25"></td>
+        </tr>
+        <tr>
+          <td width="25%"><input name="button" type="button" class="numero signo" id="button" value="+" onClick="suma()"></td>
+          <td width="25%"><input name="button2" type="button" class="numero signo" id="button2" value="-" onClick="resta()"></td>
+          <td width="25%"><input name="button3" type="button" class="numero signo" id="button3" value="*" onClick="multi()"></td>
+          <td width="25%"><input name="button4" type="button" class="numero signo" id="button4" value="/" onClick="divi()"></td>
+        </tr>
+        <tr>
+          <td><input name="num7" type="button" class="numero" id="num7" value="7" onClick="displayNumeros(7)"></td>
+          <td><input name="num8" type="button" class="numero" id="num8" value="8" onClick="displayNumeros(8)"></td>
+          <td><input name="num9" type="button" class="numero" id="num9" value="9" onClick="displayNumeros(9)"></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><input name="num4" type="button" class="numero" id="num4" value="4" onClick="displayNumeros(4)"></td>
+          <td><input name="num5" type="button" class="numero" id="num5" value="5" onClick="displayNumeros(5)"></td>
+          <td><input name="num6" type="button" class="numero" id="num6" value="6" onClick="displayNumeros(6)"></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><input name="num1" type="button" class="numero" id="num1" value="1" onClick="displayNumeros(1)" ></td>
+          <td><input name="num2" type="button" class="numero" id="num2" value="2" onClick="displayNumeros(2)"></td>
+          <td><input name="num3" type="button" class="numero" id="num3" value="3" onClick="displayNumeros(3)"></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><input name="num0" type="button" class="numero" id="num0" value="0" onClick="displayNumeros(0)"></td>
+          <td><input name="button17" type="button" class="numero" id="button17" value=","></td>
+          <td colspan="2"><input name="button12" type="button" class="igual" id="button12" value="=" onClick="solucion()" ></td>
+        </tr>
+      </table>
+</body>
+</html>
